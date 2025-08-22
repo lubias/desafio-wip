@@ -168,6 +168,7 @@ function FormMolecule() {
 
         console.log("Payload para gravar:", payload);
         localStorage.setItem("formData", JSON.stringify(payload));
+        alert("Dados gravados no localstorage");
 
         setSelectedType("");
         setSelectedUnit("");
