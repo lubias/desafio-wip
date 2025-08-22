@@ -45,7 +45,7 @@ function SidebarMolecule() {
             <Sidebar className="bg-sidebar text-sidebar-foreground w-64">
                 <SidebarContent>
                     <SidebarGroup className="px-0">
-                        <SidebarGroupLabel className="text-3xl font-bold mb-4">WIP</SidebarGroupLabel>
+                        <h1 className="text-3xl font-bold mb-4 pl-5">WIP</h1>
                         <SidebarGroupContent>
                             <SidebarMenu>
                                 {menuItems.map((item) => (
